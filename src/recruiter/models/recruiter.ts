@@ -1,6 +1,6 @@
 import { BaseModel } from '@squareboat/nestjs-objection';
 
-export class UserModel extends BaseModel {
+export class RecruiterModel extends BaseModel {
   static get tableName() {
     return 'users';
   }
